@@ -1,0 +1,65 @@
+# ----------------------------
+# Node.js / Backend
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# React / Frontend
+# ----------------------------
+build/
+dist/
+.cache/
+.next/
+out/
+
+# ----------------------------
+# Coverage / Testing
+# ----------------------------
+coverage/
+.nyc_output/
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+
+# ----------------------------
+# Docker
+# ----------------------------
+docker-compose.override.yml
+
+# ----------------------------
+# Kubernetes (optional)
+# ----------------------------
+*.secret.yaml
+
+# ----------------------------
+# PostgreSQL
+# ----------------------------
+*.sql.backup
+*.dump
+
+# ----------------------------
+# Misc
+# ----------------------------
+*.tgz
+*.zip
